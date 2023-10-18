@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+
+.container {
+  height: 700px;
+  display: grid;
+  grid-template-areas: 
+  "block1 block1 block1"
+  "block2 block3 block3"
+  "block2 block4 block6"
+  "block2 block5 block6";
+}
+
+.block {
+ font-size: 50px;
+ color: grey;
+}
+
+.block--1 {
+  grid-area: block1;
+  background-color: peru;
+}
+
+.block--2 {
+  grid-area: block2;
+  background-color: peachpuff;
+}
+
+.block--3 {
+  grid-area: block3;
+  background-color: papayawhip;
+}
+
+.block--4 {
+  grid-area: block4;
+  background-color: plum;
+}
+
+.block--5 {
+  grid-area: block5;
+  background-color: pink;
+}
+
+.block--6 {
+  grid-area: block6;
+  background-color: palegoldenrod;
+}
